@@ -3,4 +3,5 @@ from django.apps import AppConfig
 
 class InfoConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'Lineage2.apps.Info'
+    name = 'Info'
+    verbose_name = 'Про нас'
