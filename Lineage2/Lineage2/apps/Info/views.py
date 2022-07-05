@@ -5,5 +5,4 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return render(request, 'Info/Info.html', {'Info': Info.about_us,
-                                              'Photo': Info.photo})
+    return render(request, 'Info/Info.html',)
